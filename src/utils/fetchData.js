@@ -1,9 +1,8 @@
-// Connect with RapidAPI
+// Connect with RapidAPI - ExerciseDB
 export const exerciseOptions = {
     method: 'GET',
-    url: 'https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
     headers: {
-        'X-RapidAPI-Key': '7d4d1999a3msh8d171cb2f324d62p1de941jsnb30a5d5578c9',
+        'X-RapidAPI-Key': '2c84f76a8emsh7d67c32b97c8e00p13d87djsn30f178c5b05c',
         'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
     }
 };
