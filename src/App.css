@@ -6,30 +6,12 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background: #232526;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #414345, #232526);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.background-animate {
-  background-size: 400%;
-  -webkit-animation: AnimationName 8s ease infinite;
-  -moz-animation: AnimationName 8s ease infinite;
-  animation: AnimationName 8s ease infinite;
-}
-
-@keyframes AnimationName {
-  0%,
-  100% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
+  background-color: hsla(78, 22%, 55%, 1);
+  background-image:
+    radial-gradient(at 97% 3%, hsla(51, 65%, 67%, 0.7) 0px, transparent 50%),
+    radial-gradient(at 0% 99%, hsla(240, 100%, 76%, 0.7) 0px, transparent 50%),
+    radial-gradient(at 92% 80%, hsla(75, 17%, 51%, 0.7) 0px, transparent 50%),
+    radial-gradient(at 90% 98%, hsla(74, 34%, 69%, 0.7) 0px, transparent 50%);
 }
 
 * {
@@ -113,18 +95,19 @@ body {
 }
 
 .bodyPart-card {
-  transform: scale(1, 1);
+  transform: scale(0.9, 0.9);
   transition: 0.3s all ease-in-out;
 }
 
 .exercise-card:hover,
 .bodyPart-card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1, 1);
 }
 
+.explore-btn:hover,
 .search-btn:hover {
-  color: #4BB543 !important;
-  border: 1px solid #4BB543 !important;
+  background-color: #5C6F68 !important;
+  border: 1px solid #5C6F68 !important;
 }
 
 .exercise-video {
