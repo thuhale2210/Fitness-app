@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Box } from '@mui/material'
 
 import HeroBanner from '../components/HeroBanner'
@@ -12,7 +12,7 @@ const Home = () => {
     <Box>
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
-      <Exercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart}  />
+      <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
     </Box>
   )
 }
