@@ -51,7 +51,7 @@ body {
 
 .right-arrow:hover,
 .left-arrow:hover {
-  transform: scale(1.3, 1.3);
+  transform: scale(1.1, 1.1);
 }
 
 .react-horizontal-scrolling-menu--wrapper {
@@ -79,7 +79,6 @@ body {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #FF2625;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -95,13 +94,13 @@ body {
 }
 
 .bodyPart-card {
-  transform: scale(0.9, 0.9);
+  transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
 
 .exercise-card:hover,
 .bodyPart-card:hover {
-  transform: scale(1, 1);
+  border: 1px solid #CACC90;
 }
 
 .explore-btn:hover,
