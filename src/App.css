@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: hsla(78, 22%, 55%, 1);
   background-image:
     radial-gradient(at 97% 3%, hsla(51, 65%, 67%, 0.7) 0px, transparent 50%),
-    radial-gradient(at 0% 99%, hsla(240, 100%, 76%, 0.7) 0px, transparent 50%),
     radial-gradient(at 92% 80%, hsla(75, 17%, 51%, 0.7) 0px, transparent 50%),
     radial-gradient(at 90% 98%, hsla(74, 34%, 69%, 0.7) 0px, transparent 50%);
 }
@@ -19,7 +14,6 @@ body {
   margin: 0px;
   box-sizing: border-box;
   color-scheme: dark;
-
 }
 
 ::-webkit-scrollbar {
@@ -45,10 +39,6 @@ body {
   transition: 0.3s all ease-in-out;
 }
 
-.right-arrow {
-  right: 140px;
-}
-
 .right-arrow:hover,
 .left-arrow:hover {
   transform: scale(1.1, 1.1);
@@ -61,8 +51,8 @@ body {
 }
 
 .detail-image {
-  width: 729px;
-  height: 742px;
+  height: 650px;
+  margin-left: 3cap;
 }
 
 .hero-banner-img {
@@ -72,14 +62,13 @@ body {
   width: 700px;
   height: 900px;
   margin-top: -330px;
-
 }
 
 .exercise-card {
   width: 400px;
-  height: 445px;
+  height: 540px;
   background: #fff;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -89,10 +78,6 @@ body {
   transition: 0.3s all ease-in-out;
 }
 
-.exercise-card img {
-  height: 326px;
-}
-
 .bodyPart-card {
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
@@ -100,7 +85,7 @@ body {
 
 .exercise-card:hover,
 .bodyPart-card:hover {
-  border: 1px solid #CACC90;
+  background: #FFFFFF70;
 }
 
 .explore-btn:hover,
@@ -140,6 +125,7 @@ body {
 
   .exercise-card {
     width: 320px;
+    height: 450px;
   }
 
   .exercise-video {
@@ -152,5 +138,6 @@ body {
 @media screen and (max-width:400px) {
   .exercise-card {
     width: 280px;
+    height: 400px;
   }
 }
