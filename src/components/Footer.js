@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Stack sx={{ alignItems: 'center' }}>
       <Typography sx={{ fontSize: { lg: '15px', xs: '10px' } }} mb='20px'>
-        Made in 2023. With the help of JavaScript Mastery
+        Made in 2023. Click 'Home' to enter the website.
       </Typography>
     </Stack>
 
